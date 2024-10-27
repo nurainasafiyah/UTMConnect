@@ -27,3 +27,12 @@ D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-wind
 D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-windows\UTMConnect.ManageCustomer_Admin_.resources
 D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-windows\UTMConnect.ManageSeller_Admin_.resources
 D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-windows\UTMConnect.OrderPage.resources
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\System.Data.OleDb.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-windows\UTMConnect.vbproj.AssemblyReference.cache
+D:\UTM SEM 5\VBNET\UTMCONNECT\CODING\UTMConnect\UTMConnect\obj\Debug\net8.0-windows\UTMConnect.vbproj.Up2Date

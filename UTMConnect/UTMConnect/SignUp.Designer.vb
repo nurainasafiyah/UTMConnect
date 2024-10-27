@@ -23,7 +23,7 @@ Partial Class SignUp
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         PictureBox1 = New PictureBox()
-        SignInzButton = New Label()
+        SignInLabel2 = New Label()
         Label15 = New Label()
         Label19 = New Label()
         RegisterButton = New Button()
@@ -41,13 +41,12 @@ Partial Class SignUp
         Label17 = New Label()
         Label12 = New Label()
         Label7 = New Label()
-        SignInButton = New Label()
-        JoinUsButton = New Label()
-        HomePageButton = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label23 = New Label()
+        SignInLabel = New Label()
+        JoinUsLabel = New Label()
+        HomePageLabel = New Label()
+        ContactLabel = New Label()
+        AboutLabel = New Label()
+        AboutLabel2 = New Label()
         Label22 = New Label()
         Label21 = New Label()
         Label20 = New Label()
@@ -68,17 +67,17 @@ Partial Class SignUp
         PictureBox1.TabIndex = 71
         PictureBox1.TabStop = False
         ' 
-        ' SignInzButton
+        ' SignInLabel2
         ' 
-        SignInzButton.AutoSize = True
-        SignInzButton.BackColor = Color.Black
-        SignInzButton.Font = New Font("Calibri", 12F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
-        SignInzButton.ForeColor = SystemColors.ControlLightLight
-        SignInzButton.Location = New Point(293, 596)
-        SignInzButton.Name = "SignInzButton"
-        SignInzButton.Size = New Size(52, 19)
-        SignInzButton.TabIndex = 70
-        SignInzButton.Text = "Sign In"
+        SignInLabel2.AutoSize = True
+        SignInLabel2.BackColor = Color.Black
+        SignInLabel2.Font = New Font("Calibri", 12F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        SignInLabel2.ForeColor = SystemColors.ControlLightLight
+        SignInLabel2.Location = New Point(293, 596)
+        SignInLabel2.Name = "SignInLabel2"
+        SignInLabel2.Size = New Size(52, 19)
+        SignInLabel2.TabIndex = 70
+        SignInLabel2.Text = "Sign In"
         ' 
         ' Label15
         ' 
@@ -272,82 +271,71 @@ Partial Class SignUp
         Label7.TabIndex = 47
         Label7.Text = "|"
         ' 
-        ' SignInButton
+        ' SignInLabel
         ' 
-        SignInButton.AutoSize = True
-        SignInButton.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        SignInButton.ForeColor = SystemColors.ControlLightLight
-        SignInButton.Location = New Point(634, 21)
-        SignInButton.Name = "SignInButton"
-        SignInButton.Size = New Size(51, 15)
-        SignInButton.TabIndex = 46
-        SignInButton.Text = "Sign In"
+        SignInLabel.AutoSize = True
+        SignInLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        SignInLabel.ForeColor = SystemColors.ControlLightLight
+        SignInLabel.Location = New Point(634, 21)
+        SignInLabel.Name = "SignInLabel"
+        SignInLabel.Size = New Size(51, 15)
+        SignInLabel.TabIndex = 46
+        SignInLabel.Text = "Sign In"
         ' 
-        ' JoinUsButton
+        ' JoinUsLabel
         ' 
-        JoinUsButton.AutoSize = True
-        JoinUsButton.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        JoinUsButton.ForeColor = SystemColors.ControlLightLight
-        JoinUsButton.Location = New Point(705, 21)
-        JoinUsButton.Name = "JoinUsButton"
-        JoinUsButton.Size = New Size(54, 15)
-        JoinUsButton.TabIndex = 45
-        JoinUsButton.Text = "Join Us"
+        JoinUsLabel.AutoSize = True
+        JoinUsLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        JoinUsLabel.ForeColor = SystemColors.ControlLightLight
+        JoinUsLabel.Location = New Point(705, 21)
+        JoinUsLabel.Name = "JoinUsLabel"
+        JoinUsLabel.Size = New Size(54, 15)
+        JoinUsLabel.TabIndex = 45
+        JoinUsLabel.Text = "Join Us"
         ' 
-        ' HomePageButton
+        ' HomePageLabel
         ' 
-        HomePageButton.AutoSize = True
-        HomePageButton.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        HomePageButton.ForeColor = SystemColors.ControlLightLight
-        HomePageButton.Location = New Point(61, 21)
-        HomePageButton.Name = "HomePageButton"
-        HomePageButton.Size = New Size(91, 15)
-        HomePageButton.TabIndex = 43
-        HomePageButton.Text = "UTMConnect"
+        HomePageLabel.AutoSize = True
+        HomePageLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        HomePageLabel.ForeColor = SystemColors.ControlLightLight
+        HomePageLabel.Location = New Point(61, 21)
+        HomePageLabel.Name = "HomePageLabel"
+        HomePageLabel.Size = New Size(91, 15)
+        HomePageLabel.TabIndex = 43
+        HomePageLabel.Text = "UTMConnect"
         ' 
-        ' Label4
+        ' ContactLabel
         ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = SystemColors.ControlDark
-        Label4.Location = New Point(275, 21)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(59, 15)
-        Label4.TabIndex = 74
-        Label4.Text = "Contact"
+        ContactLabel.AutoSize = True
+        ContactLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        ContactLabel.ForeColor = SystemColors.ControlDark
+        ContactLabel.Location = New Point(209, 21)
+        ContactLabel.Name = "ContactLabel"
+        ContactLabel.Size = New Size(59, 15)
+        ContactLabel.TabIndex = 74
+        ContactLabel.Text = "Contact"
         ' 
-        ' Label3
+        ' AboutLabel
         ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = SystemColors.ControlDark
-        Label3.Location = New Point(224, 21)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(45, 15)
-        Label3.TabIndex = 73
-        Label3.Text = "About"
+        AboutLabel.AutoSize = True
+        AboutLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        AboutLabel.ForeColor = SystemColors.ControlDark
+        AboutLabel.Location = New Point(158, 21)
+        AboutLabel.Name = "AboutLabel"
+        AboutLabel.Size = New Size(45, 15)
+        AboutLabel.TabIndex = 73
+        AboutLabel.Text = "About"
         ' 
-        ' Label2
+        ' AboutLabel2
         ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = SystemColors.ControlDark
-        Label2.Location = New Point(154, 21)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(64, 15)
-        Label2.TabIndex = 72
-        Label2.Text = "Services"
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label23.ForeColor = SystemColors.ControlDark
-        Label23.Location = New Point(471, 666)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(45, 15)
-        Label23.TabIndex = 78
-        Label23.Text = "About"
+        AboutLabel2.AutoSize = True
+        AboutLabel2.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        AboutLabel2.ForeColor = SystemColors.ControlDark
+        AboutLabel2.Location = New Point(471, 666)
+        AboutLabel2.Name = "AboutLabel2"
+        AboutLabel2.Size = New Size(45, 15)
+        AboutLabel2.TabIndex = 78
+        AboutLabel2.Text = "About"
         ' 
         ' Label22
         ' 
@@ -430,17 +418,16 @@ Partial Class SignUp
         AutoScaleMode = AutoScaleMode.Font
         AutoScroll = True
         BackColor = SystemColors.ActiveCaptionText
-        ClientSize = New Size(800, 715)
+        ClientSize = New Size(811, 727)
         Controls.Add(GroupBox1)
-        Controls.Add(Label23)
+        Controls.Add(AboutLabel2)
         Controls.Add(Label22)
         Controls.Add(Label21)
         Controls.Add(Label20)
-        Controls.Add(Label4)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
+        Controls.Add(ContactLabel)
+        Controls.Add(AboutLabel)
         Controls.Add(PictureBox1)
-        Controls.Add(SignInzButton)
+        Controls.Add(SignInLabel2)
         Controls.Add(Label15)
         Controls.Add(Label19)
         Controls.Add(RegisterButton)
@@ -458,9 +445,9 @@ Partial Class SignUp
         Controls.Add(Label17)
         Controls.Add(Label12)
         Controls.Add(Label7)
-        Controls.Add(SignInButton)
-        Controls.Add(JoinUsButton)
-        Controls.Add(HomePageButton)
+        Controls.Add(SignInLabel)
+        Controls.Add(JoinUsLabel)
+        Controls.Add(HomePageLabel)
         MinimizeBox = False
         Name = "SignUp"
         StartPosition = FormStartPosition.CenterScreen
@@ -473,7 +460,7 @@ Partial Class SignUp
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents SignInzButton As Label
+    Friend WithEvents SignInLabel2 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents RegisterButton As Button
@@ -491,13 +478,12 @@ Partial Class SignUp
     Friend WithEvents Label17 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents SignInButton As Label
-    Friend WithEvents JoinUsButton As Label
-    Friend WithEvents HomePageButton As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label23 As Label
+    Friend WithEvents SignInLabel As Label
+    Friend WithEvents JoinUsLabel As Label
+    Friend WithEvents HomePageLabel As Label
+    Friend WithEvents ContactLabel As Label
+    Friend WithEvents AboutLabel As Label
+    Friend WithEvents AboutLabel2 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label20 As Label

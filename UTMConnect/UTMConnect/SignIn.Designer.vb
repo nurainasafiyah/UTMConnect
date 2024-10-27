@@ -23,11 +23,11 @@ Partial Class SignIn
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         PictureBox1 = New PictureBox()
-        RegisterzButton = New Label()
+        RegisterLabel2 = New Label()
         Label15 = New Label()
         Label19 = New Label()
-        RegisterButton = New Button()
-        TextBox1 = New TextBox()
+        SignInButton = New Button()
+        passwordTextBox = New TextBox()
         Label13 = New Label()
         UsernameTextBox = New TextBox()
         Label10 = New Label()
@@ -35,13 +35,12 @@ Partial Class SignIn
         Label17 = New Label()
         Label12 = New Label()
         Label7 = New Label()
-        SignInButton = New Label()
-        JoinUsButton = New Label()
+        SignInLabel = New Label()
+        JoinUsLabel = New Label()
         HomePageButton = New Label()
         Label9 = New Label()
         Label4 = New Label()
         Label3 = New Label()
-        Label2 = New Label()
         Label23 = New Label()
         Label22 = New Label()
         Label21 = New Label()
@@ -59,17 +58,17 @@ Partial Class SignIn
         PictureBox1.TabIndex = 71
         PictureBox1.TabStop = False
         ' 
-        ' RegisterzButton
+        ' RegisterLabel2
         ' 
-        RegisterzButton.AutoSize = True
-        RegisterzButton.BackColor = Color.Black
-        RegisterzButton.Font = New Font("Calibri", 12F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
-        RegisterzButton.ForeColor = SystemColors.ControlLightLight
-        RegisterzButton.Location = New Point(635, 458)
-        RegisterzButton.Name = "RegisterzButton"
-        RegisterzButton.Size = New Size(63, 19)
-        RegisterzButton.TabIndex = 70
-        RegisterzButton.Text = "Register"
+        RegisterLabel2.AutoSize = True
+        RegisterLabel2.BackColor = Color.Black
+        RegisterLabel2.Font = New Font("Calibri", 12F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        RegisterLabel2.ForeColor = SystemColors.ControlLightLight
+        RegisterLabel2.Location = New Point(635, 458)
+        RegisterLabel2.Name = "RegisterLabel2"
+        RegisterLabel2.Size = New Size(63, 19)
+        RegisterLabel2.TabIndex = 70
+        RegisterLabel2.Text = "Register"
         ' 
         ' Label15
         ' 
@@ -94,30 +93,31 @@ Partial Class SignIn
         Label19.TabIndex = 64
         Label19.Text = "UTMConnect"
         ' 
-        ' RegisterButton
+        ' SignInButton
         ' 
-        RegisterButton.AutoSize = True
-        RegisterButton.BackColor = Color.Indigo
-        RegisterButton.FlatStyle = FlatStyle.Popup
-        RegisterButton.ForeColor = Color.White
-        RegisterButton.ImageAlign = ContentAlignment.TopCenter
-        RegisterButton.Location = New Point(456, 411)
-        RegisterButton.Margin = New Padding(0)
-        RegisterButton.Name = "RegisterButton"
-        RegisterButton.Size = New Size(295, 34)
-        RegisterButton.TabIndex = 63
-        RegisterButton.Text = "Sign In"
-        RegisterButton.UseVisualStyleBackColor = False
+        SignInButton.AutoSize = True
+        SignInButton.BackColor = Color.Indigo
+        SignInButton.FlatStyle = FlatStyle.Popup
+        SignInButton.ForeColor = Color.White
+        SignInButton.ImageAlign = ContentAlignment.TopCenter
+        SignInButton.Location = New Point(456, 411)
+        SignInButton.Margin = New Padding(0)
+        SignInButton.Name = "SignInButton"
+        SignInButton.Size = New Size(295, 34)
+        SignInButton.TabIndex = 63
+        SignInButton.Text = "Sign In"
+        SignInButton.UseVisualStyleBackColor = False
         ' 
-        ' TextBox1
+        ' passwordTextBox
         ' 
-        TextBox1.BackColor = Color.Black
-        TextBox1.BorderStyle = BorderStyle.FixedSingle
-        TextBox1.ForeColor = Color.White
-        TextBox1.Location = New Point(456, 330)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(295, 23)
-        TextBox1.TabIndex = 60
+        passwordTextBox.BackColor = Color.Black
+        passwordTextBox.BorderStyle = BorderStyle.FixedSingle
+        passwordTextBox.ForeColor = Color.White
+        passwordTextBox.Location = New Point(456, 330)
+        passwordTextBox.Name = "passwordTextBox"
+        passwordTextBox.PasswordChar = "●"c
+        passwordTextBox.Size = New Size(295, 23)
+        passwordTextBox.TabIndex = 60
         ' 
         ' Label13
         ' 
@@ -197,27 +197,27 @@ Partial Class SignIn
         Label7.TabIndex = 47
         Label7.Text = "|"
         ' 
-        ' SignInButton
+        ' SignInLabel
         ' 
-        SignInButton.AutoSize = True
-        SignInButton.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        SignInButton.ForeColor = SystemColors.ControlLightLight
-        SignInButton.Location = New Point(634, 20)
-        SignInButton.Name = "SignInButton"
-        SignInButton.Size = New Size(51, 15)
-        SignInButton.TabIndex = 46
-        SignInButton.Text = "Sign In"
+        SignInLabel.AutoSize = True
+        SignInLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        SignInLabel.ForeColor = SystemColors.ControlLightLight
+        SignInLabel.Location = New Point(634, 20)
+        SignInLabel.Name = "SignInLabel"
+        SignInLabel.Size = New Size(51, 15)
+        SignInLabel.TabIndex = 46
+        SignInLabel.Text = "Sign In"
         ' 
-        ' JoinUsButton
+        ' JoinUsLabel
         ' 
-        JoinUsButton.AutoSize = True
-        JoinUsButton.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        JoinUsButton.ForeColor = SystemColors.ControlLightLight
-        JoinUsButton.Location = New Point(705, 20)
-        JoinUsButton.Name = "JoinUsButton"
-        JoinUsButton.Size = New Size(54, 15)
-        JoinUsButton.TabIndex = 45
-        JoinUsButton.Text = "Join Us"
+        JoinUsLabel.AutoSize = True
+        JoinUsLabel.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        JoinUsLabel.ForeColor = SystemColors.ControlLightLight
+        JoinUsLabel.Location = New Point(705, 20)
+        JoinUsLabel.Name = "JoinUsLabel"
+        JoinUsLabel.Size = New Size(54, 15)
+        JoinUsLabel.TabIndex = 45
+        JoinUsLabel.Text = "Join Us"
         ' 
         ' HomePageButton
         ' 
@@ -247,7 +247,7 @@ Partial Class SignIn
         Label4.AutoSize = True
         Label4.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ControlDark
-        Label4.Location = New Point(280, 20)
+        Label4.Location = New Point(210, 20)
         Label4.Name = "Label4"
         Label4.Size = New Size(59, 15)
         Label4.TabIndex = 75
@@ -258,22 +258,11 @@ Partial Class SignIn
         Label3.AutoSize = True
         Label3.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = SystemColors.ControlDark
-        Label3.Location = New Point(229, 20)
+        Label3.Location = New Point(159, 20)
         Label3.Name = "Label3"
         Label3.Size = New Size(45, 15)
         Label3.TabIndex = 74
         Label3.Text = "About"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = SystemColors.ControlDark
-        Label2.Location = New Point(159, 20)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(64, 15)
-        Label2.TabIndex = 73
-        Label2.Text = "Services"
         ' 
         ' Label23
         ' 
@@ -331,14 +320,13 @@ Partial Class SignIn
         Controls.Add(Label20)
         Controls.Add(Label4)
         Controls.Add(Label3)
-        Controls.Add(Label2)
         Controls.Add(Label9)
         Controls.Add(PictureBox1)
-        Controls.Add(RegisterzButton)
+        Controls.Add(RegisterLabel2)
         Controls.Add(Label15)
         Controls.Add(Label19)
-        Controls.Add(RegisterButton)
-        Controls.Add(TextBox1)
+        Controls.Add(SignInButton)
+        Controls.Add(passwordTextBox)
         Controls.Add(Label13)
         Controls.Add(UsernameTextBox)
         Controls.Add(Label10)
@@ -346,8 +334,8 @@ Partial Class SignIn
         Controls.Add(Label17)
         Controls.Add(Label12)
         Controls.Add(Label7)
-        Controls.Add(SignInButton)
-        Controls.Add(JoinUsButton)
+        Controls.Add(SignInLabel)
+        Controls.Add(JoinUsLabel)
         Controls.Add(HomePageButton)
         Name = "SignIn"
         StartPosition = FormStartPosition.CenterScreen
@@ -358,11 +346,11 @@ Partial Class SignIn
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents RegisterzButton As Label
+    Friend WithEvents RegisterLabel2 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label19 As Label
-    Friend WithEvents RegisterButton As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents SignInButton As Button
+    Friend WithEvents passwordTextBox As TextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents UsernameTextBox As TextBox
     Friend WithEvents Label10 As Label
@@ -370,13 +358,12 @@ Partial Class SignIn
     Friend WithEvents Label17 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents SignInButton As Label
-    Friend WithEvents JoinUsButton As Label
+    Friend WithEvents SignInLabel As Label
+    Friend WithEvents JoinUsLabel As Label
     Friend WithEvents HomePageButton As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label21 As Label

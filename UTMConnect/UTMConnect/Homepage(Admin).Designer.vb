@@ -54,7 +54,15 @@ Partial Class Homepage_Admin_
         Label24 = New Label()
         Label25 = New Label()
         Label26 = New Label()
+        DataGridViewCustomers = New DataGridView()
+        DataGridViewSellers = New DataGridView()
+        DataGridViewBookings = New DataGridView()
+        DataGridViewServices = New DataGridView()
         CType(ProfilePicture, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridViewCustomers, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridViewSellers, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridViewBookings, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridViewServices, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label23
@@ -197,7 +205,7 @@ Partial Class Homepage_Admin_
         ' 
         Label6.AutoSize = True
         Label6.BackColor = Color.Indigo
-        Label6.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.White
         Label6.Location = New Point(81, 148)
         Label6.Name = "Label6"
@@ -208,7 +216,7 @@ Partial Class Homepage_Admin_
         ' Label8
         ' 
         Label8.BackColor = Color.Indigo
-        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.White
         Label8.Location = New Point(306, 337)
         Label8.Name = "Label8"
@@ -219,7 +227,7 @@ Partial Class Homepage_Admin_
         ' Label7
         ' 
         Label7.BackColor = Color.Indigo
-        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.White
         Label7.Location = New Point(216, 337)
         Label7.Name = "Label7"
@@ -263,7 +271,7 @@ Partial Class Homepage_Admin_
         ' Label9
         ' 
         Label9.BackColor = Color.Indigo
-        Label9.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.White
         Label9.Location = New Point(568, 337)
         Label9.Name = "Label9"
@@ -275,7 +283,7 @@ Partial Class Homepage_Admin_
         ' Label10
         ' 
         Label10.BackColor = Color.Indigo
-        Label10.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = Color.White
         Label10.Location = New Point(659, 337)
         Label10.Name = "Label10"
@@ -287,7 +295,7 @@ Partial Class Homepage_Admin_
         ' 
         Label11.AutoSize = True
         Label11.BackColor = Color.Indigo
-        Label11.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label11.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label11.ForeColor = Color.White
         Label11.Location = New Point(443, 148)
         Label11.Name = "Label11"
@@ -322,7 +330,7 @@ Partial Class Homepage_Admin_
         ' Label14
         ' 
         Label14.BackColor = Color.Indigo
-        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label14.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label14.ForeColor = Color.White
         Label14.Location = New Point(189, 690)
         Label14.Name = "Label14"
@@ -334,7 +342,7 @@ Partial Class Homepage_Admin_
         ' Label15
         ' 
         Label15.BackColor = Color.Indigo
-        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label15.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label15.ForeColor = Color.White
         Label15.Location = New Point(285, 690)
         Label15.Name = "Label15"
@@ -346,7 +354,7 @@ Partial Class Homepage_Admin_
         ' 
         Label16.AutoSize = True
         Label16.BackColor = Color.Indigo
-        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label16.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label16.ForeColor = Color.White
         Label16.Location = New Point(82, 501)
         Label16.Name = "Label16"
@@ -381,7 +389,7 @@ Partial Class Homepage_Admin_
         ' Label18
         ' 
         Label18.BackColor = Color.Indigo
-        Label18.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label18.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label18.ForeColor = Color.White
         Label18.Location = New Point(558, 690)
         Label18.Name = "Label18"
@@ -393,7 +401,7 @@ Partial Class Homepage_Admin_
         ' Label24
         ' 
         Label24.BackColor = Color.Indigo
-        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label24.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label24.ForeColor = Color.White
         Label24.Location = New Point(659, 690)
         Label24.Name = "Label24"
@@ -405,7 +413,7 @@ Partial Class Homepage_Admin_
         ' 
         Label25.AutoSize = True
         Label25.BackColor = Color.Indigo
-        Label25.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label25.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label25.ForeColor = Color.White
         Label25.Location = New Point(443, 501)
         Label25.Name = "Label25"
@@ -421,13 +429,49 @@ Partial Class Homepage_Admin_
         Label26.Size = New Size(324, 322)
         Label26.TabIndex = 193
         ' 
+        ' DataGridViewCustomers
+        ' 
+        DataGridViewCustomers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewCustomers.Location = New Point(82, 184)
+        DataGridViewCustomers.Name = "DataGridViewCustomers"
+        DataGridViewCustomers.Size = New Size(267, 137)
+        DataGridViewCustomers.TabIndex = 198
+        ' 
+        ' DataGridViewSellers
+        ' 
+        DataGridViewSellers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewSellers.Location = New Point(443, 184)
+        DataGridViewSellers.Name = "DataGridViewSellers"
+        DataGridViewSellers.Size = New Size(267, 137)
+        DataGridViewSellers.TabIndex = 199
+        ' 
+        ' DataGridViewBookings
+        ' 
+        DataGridViewBookings.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewBookings.Location = New Point(82, 538)
+        DataGridViewBookings.Name = "DataGridViewBookings"
+        DataGridViewBookings.Size = New Size(267, 137)
+        DataGridViewBookings.TabIndex = 200
+        ' 
+        ' DataGridViewServices
+        ' 
+        DataGridViewServices.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewServices.Location = New Point(443, 538)
+        DataGridViewServices.Name = "DataGridViewServices"
+        DataGridViewServices.Size = New Size(267, 137)
+        DataGridViewServices.TabIndex = 201
+        ' 
         ' Homepage_Admin_
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         AutoScroll = True
         BackColor = SystemColors.ActiveCaptionText
         ClientSize = New Size(800, 882)
+        Controls.Add(DataGridViewServices)
+        Controls.Add(DataGridViewBookings)
+        Controls.Add(DataGridViewSellers)
+        Controls.Add(DataGridViewCustomers)
         Controls.Add(ManageServiceButton)
         Controls.Add(Label18)
         Controls.Add(Label24)
@@ -463,6 +507,10 @@ Partial Class Homepage_Admin_
         Name = "Homepage_Admin_"
         Text = "Homepage_Admin_"
         CType(ProfilePicture, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridViewCustomers, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridViewSellers, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridViewBookings, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridViewServices, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -498,4 +546,8 @@ Partial Class Homepage_Admin_
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents Label26 As Label
+    Friend WithEvents DataGridViewCustomers As DataGridView
+    Friend WithEvents DataGridViewSellers As DataGridView
+    Friend WithEvents DataGridViewBookings As DataGridView
+    Friend WithEvents DataGridViewServices As DataGridView
 End Class

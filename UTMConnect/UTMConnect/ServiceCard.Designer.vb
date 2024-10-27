@@ -34,35 +34,30 @@ Partial Class ServiceCard
         ServicePictureBox.Location = New Point(19, 24)
         ServicePictureBox.Name = "ServicePictureBox"
         ServicePictureBox.Size = New Size(233, 100)
+        ServicePictureBox.SizeMode = PictureBoxSizeMode.CenterImage
         ServicePictureBox.TabIndex = 0
         ServicePictureBox.TabStop = False
         ' 
         ' ServiceNameLabel
         ' 
-        ServiceNameLabel.AutoSize = True
         ServiceNameLabel.Location = New Point(19, 147)
         ServiceNameLabel.Name = "ServiceNameLabel"
-        ServiceNameLabel.Size = New Size(41, 15)
+        ServiceNameLabel.Size = New Size(233, 21)
         ServiceNameLabel.TabIndex = 1
-        ServiceNameLabel.Text = "Label1"
         ' 
         ' ServiceDescriptionLabel
         ' 
-        ServiceDescriptionLabel.AutoSize = True
         ServiceDescriptionLabel.Location = New Point(19, 178)
         ServiceDescriptionLabel.Name = "ServiceDescriptionLabel"
-        ServiceDescriptionLabel.Size = New Size(41, 15)
+        ServiceDescriptionLabel.Size = New Size(233, 24)
         ServiceDescriptionLabel.TabIndex = 2
-        ServiceDescriptionLabel.Text = "Label2"
         ' 
         ' ServicePriceLabel
         ' 
-        ServicePriceLabel.AutoSize = True
-        ServicePriceLabel.Location = New Point(211, 229)
+        ServicePriceLabel.Location = New Point(153, 229)
         ServicePriceLabel.Name = "ServicePriceLabel"
-        ServicePriceLabel.Size = New Size(41, 15)
+        ServicePriceLabel.Size = New Size(99, 24)
         ServicePriceLabel.TabIndex = 3
-        ServicePriceLabel.Text = "Label3"
         ' 
         ' ServiceCard
         ' 
@@ -76,7 +71,6 @@ Partial Class ServiceCard
         Size = New Size(272, 267)
         CType(ServicePictureBox, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Public WithEvents ServicePictureBox As PictureBox
